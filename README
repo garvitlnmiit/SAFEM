@@ -1,0 +1,30 @@
+What Is SAFEM?
+--------------
+
+Student and Faculty Evaluation Module(SAFEM) is the web-based application
+(written using JavaServlets, HTML, CSS and JavaScript) part of the 
+campus automation project. This application aims to automate the process
+of evaluation of students and faculty in an institute/organization.
+
+For the complete understanding of this software it is required to see the
+documentations.
+
+How to Use/Contribute?
+----------------------
+
+To put the application on work you need to first have apache tomcat server 
+which you can get from (http://tomcat.apache.org/). Configure it with the
+mysql server the way you want. Now if you are done with the apache tomcat 
+server configuration then replace the ROOT directory of the apache server
+with the ROOT directory placed over here. Note you may have to change some
+lines of the ROOT/WEB-INF/context.xml and ROOT/WEB-INF/web.xml.
+
+Do not forget to use the DemoDB.sql to initialize your database with the 
+dummy values.
+
+If all the things had configured correctly then you would be able to see
+the login page at (localhost:8080). 
+
+In case you find any problems please feel free to contact me at 
+garvit.developer@gmail.com
+

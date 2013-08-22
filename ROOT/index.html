@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>EVAL-SYS1</title>
+<style type=text/css>
+strong
+{
+	font-size:17;
+}
+.inputText.input
+{
+	width: 250px;
+	padding-left: 1px;
+	border-style: solid;
+	height:30px;
+	font-family: helvetica, arial, sans serif;
+	padding-left: 5px;
+	background-color: #00ff00;
+}
+.inputText.input:hover
+{
+	border-color: :#000000;
+	border-width: 5px;
+
+}
+.inputText.input:focus
+{
+	background-color: #00ff00;
+	border-style: solid;
+	border-color: :#000000;
+	border-width: 5px;
+
+}
+#loginBox
+{
+	position:fixed;
+	top:110px;
+	right:150px;
+	width:300px;
+	padding: 20px 25px 15px;
+	background-color:#E0E0E0;
+	height:350px;
+	box-shadow: 0px 0px 10px
+}
+#sideBar
+{
+	position:fixed;
+	top:110px;
+	left:100px;
+	width:500px;
+	padding: 20px 25px 15px;
+	background-color:#fffff;
+	height:350px;
+
+
+}
+.signInButton
+{
+	background-color:#6666CC;
+	font-size: 15px;
+	font-weight: bold;
+	font-color:#33CCCC;
+	height: 30px;
+	border:1px solid #000000;
+}
+.signInButton:hover
+{
+	background-color:#6666FF;
+	border:1px solid #0099FF;
+}
+#head
+{
+	position:absolute;
+	top:10px;
+	left:30px;	
+}
+</style>
+</head>
+<body>
+<!-- Header LOGO-->
+<div id="head">
+<a href="http://www.lnmiit.ac.in"><img src="/images/lnm_logo.jpg" height="80px"></a>
+</div>
+<!-- Header LOGO -->
+
+<!-- Beign of Login Box-->
+
+<table id="loginBox">
+
+<form action="/hello" method="post">
+
+<div class="inputText">
+<tr style="font-size:24; font-color:#000000"><td>Sign in</td></tr>
+	<tr><td><strong>Username:</strong></td></tr>
+	<tr><td><input type="text" name="usr" spellcheck="false"/></td></tr>
+<tr>
+	<tr><td><strong>Password:</strong></td></tr>
+	<tr><td><input type="password" name="pwd" spellcheck="false"/></td></tr>
+</div>	
+<div id="cat">
+<tr><td><strong>Category :</strong></td></tr>
+<tr><td><input type="radio" name="userCategory" value="admin">Admin</td></tr>
+<tr><td><input type="radio" name="userCategory" value="instructor">Instructor</td></tr>
+<tr><td><input type="radio" name="userCategory" value="student">Student</td></tr><br>
+<tr><td><input type="radio" name="userCategory" value="parent">Parent</td></tr><br>
+<tr><td><input value="Sign in" type="submit" class="signInButton"></input></td></tr>
+</div>
+</table>
+</form>
+<!--End of Login Box-->
+
+<!-- Side BAR --> 
+<table id="sideBar">	
+	<tr class=heading" style='color: #336699'><td><h2>Student Teacher Evaluation System</h2></td><tr>
+<tr><td><ul>
+<li><h3>Admin</h3></li>
+<li><h3>Instructor</h3></li>
+<li><h3>Student</h3></li>
+<li><h3>Parent</h3></li>
+</ul> </td></tr>
+
+</table>
+<!--Side Bar Ends>
+<>
+
+</body>
+</html>

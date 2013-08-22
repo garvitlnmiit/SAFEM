@@ -1,0 +1,27 @@
+<html>
+<head><title>
+Change Password
+</title>
+<script type='text/javascript' src='changePwd.js'></script>
+<link rel='stylesheet' type='text/css' href='css/handle.css'>
+</head>
+<body>
+<h1>Change Password</h1>
+<table id='box'>
+<tr>
+<form name='pwd_login'>
+<td>Old Password:</td><td><input type="password" name="opwd" required></td>
+</tr>
+<tr>
+<td>New Password:</td><td><input type="password" name="npwd" required></td>
+</tr>
+<tr>
+<td>Confirm New Password:</td><td><input type="password" name="cnpwd" required></td></tr>
+<tr><td></br></td></tr>
+<tr><td><input type="button" value="Submit" onclick='changePwd(this)'/></td></tr>
+
+</table>
+</form>
+<div id="err"></div>
+</table>
+</body></html>

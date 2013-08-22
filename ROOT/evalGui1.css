@@ -1,0 +1,57 @@
+.heading
+{
+	background-color:#4169e1;
+	color:#ffffff;
+}
+#evaluationTable
+{
+	border-width:0px;
+}
+
+.oddStudent
+{
+	width:40px;
+	background-color:#CCCCFF;
+	text-align:center;
+	border-width: 0px;
+	border-color:#BC8F8F;
+}
+.evenStudent
+{
+	width:40px;
+	text-align:center;
+	background-color:#9999FF;
+	border-width: 0px;
+	border-color:#D2691E;
+}
+.studentID
+{
+	background-color:#00ff00;
+}
+#pati
+{
+	background-color:#2f4f4f;
+	align:left;
+}
+.evalGuiButtons
+{	
+	background-color:#dcdcdc;
+	font-size: 11px;
+	font-color:#33CCCC;
+	height: 20px;
+	border:1px solid #000000;
+}
+.evalGuiButtons:hover
+{
+	background-color:#6666FF;
+	border:1px solid #0099FF;
+}
+#controlPanel
+{
+	float:left;
+	border:1px solid;
+}
+.publicView
+{
+
+}

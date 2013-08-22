@@ -1,0 +1,36 @@
+body {
+background-color: #fff;
+margin: 0;
+color:#fff;
+}
+
+#wrapper {
+border:2px solid #111;
+width: 850px;
+background-color: #ffffff;
+margin: 0 auto 0 auto;
+height: 760px;
+background: url('lnmiit.jpg') center no-repeat; 
+}
+
+#header {
+width : 100%;
+height : 100px;
+background-color: #fff; 
+}
+
+#content {
+position:relative;
+width : 100%;
+height : 600px;
+float:left;
+}
+#footer {
+position: relative;
+width:100%;
+height : 60px;
+float : left;
+background-color: #fff;
+}
+
+

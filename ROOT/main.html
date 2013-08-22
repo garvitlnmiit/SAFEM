@@ -1,0 +1,30 @@
+<html Doctype HTML>
+<head>
+<title>Dynamic Creation of Table for EVALGUI</title>
+<script src="main.js"
+        language="JavaScript1.5"
+        type="text/javascript"></script>
+</head>
+<body>
+<h1>EVAL GUI </h1>
+<!-- <form enctype="multipart/form-data" id="Form" method="post" action="."> -->
+ 
+  <table id="myTable" border="2" >
+  	<tr id="publicView"><td>PublicView</td></tr> 
+  	<tr id="update"><td></td></tr> 
+  	<tr bgcolor="#FF0000" id="HeadingTable" >
+  		<th>Name</th>
+  	</tr>
+  	
+  </table>
+<!--</form> -->
+
+<input id="populateField" type="button" value="Populate Tables" onclick="myfunction()"></input>
+
+<input id="addField" type="button" value="Add Fild" onclick="addField()"></input>
+
+<input id="deleteField" type="button" value="Delete Fild" onclick="delField()"></input>
+
+
+</body>
+</html>

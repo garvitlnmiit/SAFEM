@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head><title>Cutt-Off</title>
+<script src='cutoff.js' type='text/javascript'></script>
+<link rel='stylesheet' type='text/css' href='css/handle.css'>
+</head>
+<body>
+
+<div id='topRightPanel'>
+<button onclick='changePwd()'>Change Password</button>
+<button onclick='logout()'>Log Out</button>
+</div>
+<div id='topLeftPanel'>
+<h2>Set Cutoffs</h2>
+</div>
+<form name='coEntry'>
+<table id='box'>
+
+<tr><th>Grades</th><th>Maximum Marks</th></tr>
+<tr><td>F</td><td><input type="text" name="f" /></td></tr>
+<tr><td>D</td><td><input type="text" name="d" /></td></tr>
+<tr><td>CD</td><td><input type="text" name="cd" /></td></tr>
+<tr><td>C</td><td><input type="text" name="c" /></td></tr>
+<tr><td>BC</td><td><input type="text" name="bc" /></td></tr>
+<tr><td>B</td><td><input type="text" name="b" /></td></tr>
+<tr><td>AB</td><td><input type="text" name="ab" /></td></tr>
+<tr><td>A</td><td><input type="text" name="a" /></td></tr>
+<tr><td></td></tr>
+<tr><td colspan='2'><input type="button" value="set" onclick="validate()"/></td></tr>
+</table>
+</form>
+</body></html>

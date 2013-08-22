@@ -1,0 +1,247 @@
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
+http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+    version="2.4">
+	<servlet>
+	<servlet-name>HelloWorld</servlet-name>
+	<servlet-class>handle</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>HelloWorld</servlet-name>
+	<url-pattern>/hello</url-pattern>	
+	</servlet-mapping>
+
+	<servlet>
+	<servlet-name>CourseFaculty</servlet-name>
+	<servlet-class>course</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>CourseFaculty</servlet-name>
+	<url-pattern>/course_s</url-pattern>		
+	</servlet-mapping>
+
+	<servlet>
+	<servlet-name>update_class</servlet-name>
+	<servlet-class>update</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>update_class</servlet-name>
+	<url-pattern>/update</url-pattern>		
+	</servlet-mapping>
+
+	<servlet>
+	<servlet-name>add_field</servlet-name>
+	<servlet-class>addfield</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>add_field</servlet-name>
+	<url-pattern>/addfield</url-pattern>		
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>eval_tot</servlet-name>
+	<servlet-class>evaltot</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>eval_tot</servlet-name>
+	<url-pattern>/evaltot</url-pattern>		
+	</servlet-mapping>
+
+	<servlet>
+	<servlet-name>eval_tot_a</servlet-name>
+	<servlet-class>evaltot_a</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>eval_tot_a</servlet-name>
+	<url-pattern>/evaltot_a</url-pattern>		
+	</servlet-mapping>
+
+	<servlet>
+	<servlet-name>piechart</servlet-name>
+	<servlet-class>draw_pie</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>piechart</servlet-name>
+	<url-pattern>/draw_pie</url-pattern>		
+	</servlet-mapping>	
+
+	<servlet>
+	<servlet-name>logout</servlet-name>
+	<servlet-class>log_out</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>logout</servlet-name>
+	<url-pattern>/log_out</url-pattern>		
+	</servlet-mapping>	
+	
+	<servlet>
+	<servlet-name>chgpwd</servlet-name>
+	<servlet-class>pwdfun</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>chgpwd</servlet-name>
+	<url-pattern>/pwdfun</url-pattern>		
+	</servlet-mapping>	
+	
+	<servlet>
+	<servlet-name>pv</servlet-name>
+	<servlet-class>publicView</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>pv</servlet-name>
+	<url-pattern>/publicView</url-pattern>		
+	</servlet-mapping>	
+
+	<servlet>
+	<servlet-name>co</servlet-name>
+	<servlet-class>cutOff</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>co</servlet-name>
+	<url-pattern>/cutOff</url-pattern>		
+	</servlet-mapping>	
+
+	<servlet-mapping>
+	<servlet-name>HelloWorld</servlet-name>
+	<url-pattern>/action</url-pattern>	
+	</servlet-mapping>
+
+<!-- Second Page Student-->
+
+	<servlet>
+	<servlet-name>Student</servlet-name>
+	<servlet-class>student</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>Student</servlet-name>
+	<url-pattern>/student</url-pattern>		
+	</servlet-mapping>
+	
+<!-- Second Page Parent-->
+	<servlet>
+	<servlet-name>parent</servlet-name>
+	<servlet-class>parent1</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>parent</servlet-name>
+	<url-pattern>/parent</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>admin</servlet-name>
+	<servlet-class>admin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>admin</servlet-name>
+	<url-pattern>/admin</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+	<servlet-name>add_student</servlet-name>
+	<servlet-class>add_student</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>add_student</servlet-name>
+	<url-pattern>/add_student</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+	<servlet-name>add_instructor</servlet-name>
+	<servlet-class>instructor</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>add_instructor</servlet-name>
+	<url-pattern>/instructor</url-pattern>
+	</servlet-mapping>
+	<servlet>
+	<servlet-name>Feedback</servlet-name>
+	<servlet-class>feedback</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>Feedback</servlet-name>
+	<url-pattern>/feedback</url-pattern>		
+	</servlet-mapping>
+	<servlet>
+	<servlet-name>add_c</servlet-name>
+	<servlet-class>add_course</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>add_c</servlet-name>
+	<url-pattern>/add_course</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>File</servlet-name>
+		<servlet-class>avail</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>File</servlet-name>
+		<url-pattern>/avail</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>File1</servlet-name>
+		<servlet-class>avail1</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>File1</servlet-name>
+		<url-pattern>/avail1</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>File2</servlet-name>
+		<servlet-class>avail2</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>File2</servlet-name>
+		<url-pattern>/avail2</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>File3</servlet-name>
+		<servlet-class>avail3</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>File3</servlet-name>
+		<url-pattern>/avail3</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Pass</servlet-name>
+		<servlet-class>change_pass</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Pass</servlet-name>
+		<url-pattern>/change_pass</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>check_old</servlet-name>
+		<servlet-class>check_old</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>check_old</servlet-name>
+		<url-pattern>/check_old</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>check_id</servlet-name>
+		<servlet-class>check_id</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>check_id</servlet-name>
+		<url-pattern>/check_id</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>insLogin</servlet-name>
+		<servlet-class>instructor_login</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>insLogin</servlet-name>
+		<url-pattern>/instructor_login</url-pattern>
+	</servlet-mapping>	
+
+	<resource-ref>
+      <description>DB Connection</description>
+      <res-ref-name>jdbc/TestDB</res-ref-name>
+      <res-type>javax.sql.DataSource</res-type>
+      <res-auth>Container</res-auth>
+  </resource-ref>
+</web-app>
